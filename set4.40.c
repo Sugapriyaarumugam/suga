@@ -3,7 +3,7 @@ int main()
 {
     int i, N, t = 0, t1 = 1, temp;
     scanf("%d", &N);
-    for (i = 1; i <= N; ++i)
+    for (i = 1; i <= N; i++)
     {
         printf("%d ", t);
         temp= t + t1;
