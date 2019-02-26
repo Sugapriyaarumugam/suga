@@ -7,8 +7,8 @@ int i,j;
 clrscr();
 gets(s1);
 gets(s2);
-for(i=0;s1[i]!='\0';++i);
-for(j=0;s2[j]!='\0';++j,++i)
+for(i=0;s1[i]!='\0';i++);
+for(j=0;s2[j]!='\0';j++,i++)
 {
 s1[i]=s2[j];
 }
