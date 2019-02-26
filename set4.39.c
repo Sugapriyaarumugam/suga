@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 int main(void) {
- int n[100],i,large;
+ int n[100],i,lar;
  for(i=1;i<=10;i++)
  {
  scanf("%d",&n[i]);
  }
- large=n[0];
+ lar=n[0];
  for(i=1;i<=10;i++)
  {
-   if(n[i]>large)
+   if(n[i]>lar)
    {
-     large=n[i];
+     lar=n[i];
    }
  }
- printf("%d",large);
+ printf("%d",lar);
 return 0;
 }
