@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 int main(void) 
 {
   int a,b,c,a1,b1,c1,a2,b2,c2;
@@ -9,5 +8,4 @@ int main(void)
   scanf("%d\t%d",&a2,&b2);
   c=abs(a-b);c1=abs(a1-b1);c2=abs(a2-b2);
   printf("%d\n%d\n%d",c,c1,c2);
- 
 }
