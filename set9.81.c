@@ -1,11 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
-int main(void) 
-{
-  int v,b,c,a1,b1,c1,a2,b2,c2;
-  scanf("%d\t%d",&v,&b);
-  scanf("%d\t%d",&a1,&b1);
-  scanf("%d\t%d",&a2,&b2);
-  c=abs(v-b);c1=abs(a1-b1);c2=abs(a2-b2);
-  printf("%d\n%d\n%d",c,c1,c2);
+int main(void) {
+	int a[10],b[10],c[10];
+	int v,i,j;
+	scanf("%d",&v);
+	for(i=0;i<v;i++)
+	{
+		scanf("%d %d",&a[i],&b[i]);
+		c[i]=a[i]-b[i];
+	}
+	for(i=0;i<v;i++)
+	{
+		printf("\n%d",c[i]);
+	}
+	return 0;
 }
