@@ -12,5 +12,4 @@ int main(void) {
 	{
 		printf("\n%d",c[i]);
 	}
-	return 0;
 }
